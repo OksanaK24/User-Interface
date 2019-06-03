@@ -72,23 +72,48 @@ header{
 	margin-top: 20px;
 }
 nav{
-	display:inline-block;
-	
+	display:inline-block;	
 }
 a{
 	margin-right: 50px;
+	color: grey;
+	text-decoration: none;
 }
 .logo{
 	margin-left: 20px;
 	box-sizing: border-box;
 }
+.Intro{
+	margin-bottom:50px;
+}
 .IntroInov{
 	display: inline-block;
-}
-.Intro{
-	margin: 20px 0px 20px 20px;
+	margin:50px;
 }
 h1{
-	font-size:80px;
-	
+	font-size:70px;
+}
+.Intro img{
+	margin-left: 80px;
+	margin-top: 100px;
+}
+button{
+	background-color: white;
+	font-size: 15px;
+	padding: 5px 30px;
+	box-shadow: none;
+	border: 1px solid black;
+}
+.AbovePic .TextInfo{
+	width: 49%;
+	display: inline-block;
+	padding: 30px 0px;
+}
+.BelowPic .TextInfo{
+	width: 32%;
+	display: inline-block;
+	padding: 30px 0px;
+}
+footer{
+	margin: 50px 150px 100px 150px;
 }
